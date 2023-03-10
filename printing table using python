@@ -1,0 +1,6 @@
+ #TABLE USING FOR LOOP.
+ print('Enter a number:')
+ n = int(input())
+ #for table starting from 2*1=2 we should use range(1,11)
+ for i in range(1,11):
+   print(n,'x',i,'=',n*i)
